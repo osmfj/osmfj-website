@@ -1,6 +1,6 @@
 ---
 title: 年会費の手続き
-subtitle: 個人会員 年会費について
+subtitle: 個人会員 協賛会員の 年会費について
 layout: default
 modal-id: 5
 date: 2012-08-04
