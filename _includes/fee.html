@@ -1,0 +1,88 @@
+<h3> 正会費の年会費定期支払い</h3>
+<div id="paypal-button-container-P-2A337296GK2506105MLVHWCQ"></div>
+<script src="https://www.paypal.com/sdk/js?client-id=ATuT074Rd5alp07TFNOx7lySX0BSuEewgQHvJd4VIGZy8GaNwhUrf2D-LVnxwtCXX53AqB8P5KZDVXDn&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
+<script>
+    paypal.Buttons({
+        style: {
+            shape: 'pill',
+            color: 'blue',
+            layout: 'vertical',
+            label: 'paypal'
+        },
+        createSubscription: function(data, actions) {
+            return actions.subscription.create({
+                /* Creates the subscription */
+                plan_id: 'P-2A337296GK2506105MLVHWCQ'
+            });
+        },
+        onApprove: function(data, actions) {
+            alert(data.subscriptionID); // You can add optional success message for the subscriber here
+        }
+    }).render('#paypal-button-container-P-2A337296GK2506105MLVHWCQ'); // Renders the PayPal button
+</script>
+
+<h3> 正会員の初年度の入会金と、年会費の定期支払い</h3>
+<div id="paypal-button-container-P-72E84618PJ7528153MLVQOPY"></div>
+<script>
+    paypal.Buttons({
+        style: {
+            shape: 'pill',
+            color: 'gold',
+            layout: 'vertical',
+            label: 'paypal'
+        },
+        createSubscription: function(data, actions) {
+            return actions.subscription.create({
+                /* Creates the subscription */
+                plan_id: 'P-72E84618PJ7528153MLVQOPY'
+            });
+        },
+        onApprove: function(data, actions) {
+            alert(data.subscriptionID); // You can add optional success message for the subscriber here
+        }
+    }).render('#paypal-button-container-P-72E84618PJ7528153MLVQOPY'); // Renders the PayPal button
+</script>
+
+<h3> 賛助会費(個人)の年会費定期支払い</h3>
+<div id="paypal-button-container-P-0K151711829850245MLVQITY"></div>
+<script>
+    paypal.Buttons({
+        style: {
+            shape: 'pill',
+            color: 'silver',
+            layout: 'vertical',
+            label: 'paypal'
+        },
+        createSubscription: function(data, actions) {
+            return actions.subscription.create({
+                /* Creates the subscription */
+                plan_id: 'P-0K151711829850245MLVQITY'
+            });
+        },
+        onApprove: function(data, actions) {
+            alert(data.subscriptionID); // You can add optional success message for the subscriber here
+        }
+    }).render('#paypal-button-container-P-0K151711829850245MLVQITY'); // Renders the PayPal button
+</script>
+
+<h3> 賛助会費(法人)の定期支払い(年次)</h3>
+<div id="paypal-button-container-P-8HX37534RU5103018MLZ3BTY"></div>
+<script>
+    paypal.Buttons({
+        style: {
+            shape: 'rect',
+            color: 'gold',
+            layout: 'vertical',
+            label: 'subscribe'
+        },
+        createSubscription: function(data, actions) {
+            return actions.subscription.create({
+                /* Creates the subscription */
+                plan_id: 'P-8HX37534RU5103018MLZ3BTY'
+            });
+        },
+        onApprove: function(data, actions) {
+            alert(data.subscriptionID); // You can add optional success message for the subscriber here
+        }
+    }).render('#paypal-button-container-P-8HX37534RU5103018MLZ3BTY'); // Renders the PayPal button
+</script>
