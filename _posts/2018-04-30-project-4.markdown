@@ -1,6 +1,6 @@
 ---
-title: 会員について
-subtitle: 個人会員・企業会員
+title: 会員種別と会費について
+subtitle: 個人会員・企業会員、会費の定期支払い手続き
 layout: default
 modal-id: 4
 date: 2020-03-04
