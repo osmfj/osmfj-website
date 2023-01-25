@@ -17,15 +17,6 @@ people:
     - title: facebook
       url: https://www.facebook.com/miurahr
 
-- name: ikiya
-  pic: 2
-  position: 副理事
-  social:
-    - title: twitter
-      url: https://twitter.com/ikiya
-    - title: facebook
-      url: https://www.facebook.com/kinya.iino
-
 - name: 飯田 哲 (Iida Satoshi, nyampire)
   pic: 3
   position: 副理事
@@ -37,12 +28,29 @@ people:
 
 - name: 坂ノ下 勝幸 (Sakanoshita Katsuyuki)
   pic: 4
-  position: 理事
+  position: 副理事
   social:
     - title: twitter
       url: https://twitter.com/k_sakanoshita
     - title: facebook
       url: https://www.facebook.com/K.Sakanoshita
+
+- name: 松澤 太郎 (Matsuzawa Taro)
+  pic: 5
+  position: 理事
+  social:
+    - title: twitter
+      url: https://twitter.com/smellman
+    - title: facebook
+      url: https://www.facebook.com/btm.smellman
+
+- name: 田中 俊寿 (Tanaka Toshihisa)
+  pic: 6
+  position: 幹事
+  social:
+    - title: facebook
+      url: https://www.facebook.com/tosihisa
+
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
