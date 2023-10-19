@@ -10421,6 +10421,11 @@ header.masthead .masthead-heading {
   margin-bottom: 0;
 }
 
+section#members img {
+  height: 14rem;
+  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+}
+
 section#contact {
   background-color: #212529;
   background-image: url("../img/map-image.png");
