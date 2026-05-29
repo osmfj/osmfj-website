@@ -2,7 +2,7 @@ export interface TimelineEvent {
   year: string;
   title: string;
   description: string;
-  img: string;
+  img?: string;
 }
 
 export const events: TimelineEvent[] = [
@@ -41,5 +41,11 @@ export const events: TimelineEvent[] = [
     title: 'OSMF Local Chapter認定',
     description: '英国OpenStreetMap Foundationの正式なLocal Chapter（地域支部）として認定されました。',
     img: 'img/about/6_foundation.png',
+  },
+  {
+    year: '2025年1月',
+    title: '本店を赤羽に移転',
+    description: '一般社団法人オープンストリートマップ・ファウンデーション・ジャパンの本店所在地を東京都北区赤羽に移転しました。',
+    img: 'img/about/7_akabane.png',
   },
 ];

@@ -13,7 +13,10 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
       {events.map((event, index) => (
         <li class={index % 2 === 1 ? 'timeline-inverted' : ''}>
           <div class="timeline-image">
-            <img class="rounded-circle img-fluid" src={`${base}${event.img}`} alt={event.title} />
+            {event.img
+              ? <img class="rounded-circle img-fluid" src={`${base}${event.img}`} alt={event.title} />
+              : <i class="fas fa-map-marker-alt fa-2x"></i>
+            }
           </div>
           <div class="timeline-panel">
             <div class="timeline-heading">
