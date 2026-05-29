@@ -1,0 +1,36 @@
+---
+import { events } from '../data/timeline';
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+---
+<!-- Timeline -->
+<section class="page-section" id="about">
+  <div class="container">
+    <div class="text-center">
+      <h2 class="section-heading">これまでの主な活動</h2>
+      <h3 class="section-subheading text-muted">日本におけるOpenStreetMapの活動履歴</h3>
+    </div>
+    <ul class="timeline">
+      {events.map((event, index) => (
+        <li class={index % 2 === 1 ? 'timeline-inverted' : ''}>
+          <div class="timeline-image">
+            <img class="rounded-circle img-fluid" src={`${base}${event.img}`} alt={event.title} />
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>{event.year}</h4>
+              <h4 class="subheading">{event.title}</h4>
+            </div>
+            <div class="timeline-body">
+              <p class="text-muted">{event.description}</p>
+            </div>
+          </div>
+        </li>
+      ))}
+      <li class="timeline-inverted">
+        <div class="timeline-image">
+          <h4>Be Part<br>Of Our<br>Story!</h4>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>

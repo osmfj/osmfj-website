@@ -4,7 +4,7 @@ import Header from '../components/Header.astro';
 import Services from '../components/Services.astro';
 import Events from '../components/Events.astro';
 import InfoTabs from '../components/InfoTabs.astro';
-import About from '../components/About.astro';
+import Timeline from '../components/Timeline.astro';
 import Team from '../components/Team.astro';
 import Sponsors from '../components/Sponsors.astro';
 import Contact from '../components/Contact.astro';
@@ -19,7 +19,7 @@ const orgPosts = await getCollection('organization');
   <Services />
   <Events />
   <InfoTabs posts={orgPosts} />
-  <About />
+  <Timeline />
   <Team />
   <Sponsors />
   <Contact />
