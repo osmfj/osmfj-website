@@ -1,9 +1,10 @@
 ---
 title: State of the Map Japan
 subtitle: OpenStreetMapのローカルカンファレンス
-description: OpenStreetMap Foundation Japanでは、2014年以降1年に1回、[State of the Map Japan](https://stateofthemap.jp)として、ローカルカンファレンスの開催を行っています。
 order: 1
 ---
+
+OpenStreetMap Foundation Japanでは、2014年以降1年に1回、[State of the Map Japan](https://stateofthemap.jp)として、ローカルカンファレンスの開催を行っています。
 
 - [State of the Map Japan 2014](https://stateofthemap.jp/2014/) — 東京
 - [State of the Map Japan 2015](https://stateofthemap.jp/2015/) — 浜松

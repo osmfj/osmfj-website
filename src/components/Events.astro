@@ -24,9 +24,6 @@ const renderedEvents = await Promise.all(
           {entry.data.subtitle && (
             <p class="text-muted">{entry.data.subtitle}</p>
           )}
-          {entry.data.description && (
-            <p set:html={entry.data.description} />
-          )}
           <Content />
         </div>
       ))}
