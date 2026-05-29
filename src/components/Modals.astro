@@ -1,0 +1,45 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import Fee from './Fee.astro';
+
+interface Props {
+  posts: CollectionEntry<'portfolio'>[];
+}
+
+const { posts } = Astro.props;
+
+const renderedPosts = await Promise.all(
+  posts.map(async (post) => {
+    const { Content } = await post.render();
+    return { post, Content };
+  })
+);
+---
+<!-- Portfolio Modals -->
+{renderedPosts.map(({ post, Content }) => (
+  <div class="portfolio-modal modal fade" id={`portfolioModal${post.data.modalId}`} tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <img src="/img/close-icon.svg" alt="Close modal" />
+        </div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="modal-body">
+                <h2>{post.data.title}</h2>
+                <img class="img-fluid d-block mx-auto" src={`/img/portfolio/${post.data.img}`} alt={post.data.alt} />
+                <Content />
+                {post.data.category === 'kaihi' && <Fee />}
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times mr-1"></i>
+                  Close Dialog
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+))}
