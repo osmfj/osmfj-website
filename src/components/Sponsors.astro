@@ -1,0 +1,33 @@
+---
+import { corporateMembers, infrastructureSponsors } from '../data/sponsors';
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+---
+<!-- 協賛会員 -->
+<aside class="py-5">
+  <div class="container">
+    <div class="col-lg-12 text-center">
+      <h2 class="section-heading">企業賛助会員</h2>
+    </div>
+    <div class="row justify-content-center align-items-center">
+      {corporateMembers.map((s) => (
+        <div class="col-md-6 col-sm-6 my-3">
+          <a href={s.url} target="_blank" rel="noopener noreferrer">
+            <img src={`${base}img/logos/${s.logo}`} class="img-fluid d-block mx-auto" alt={s.name} />
+          </a>
+        </div>
+      ))}
+    </div>
+    <div class="col-lg-12 text-center">
+      <h2 class="section-heading">サーバインフラ支援</h2>
+    </div>
+    <div class="row justify-content-center align-items-center">
+      {infrastructureSponsors.map((s) => (
+        <div class="col-md-6 col-sm-6 my-3">
+          <a href={s.url} target="_blank" rel="noopener noreferrer">
+            <img src={`${base}img/logos/${s.logo}`} class="img-fluid d-block mx-auto" alt={s.name} />
+          </a>
+        </div>
+      ))}
+    </div>
+  </div>
+</aside>

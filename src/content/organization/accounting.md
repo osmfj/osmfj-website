@@ -1,14 +1,8 @@
 ---
 title: 会計報告
 subtitle: 年次会計報告
-modalId: 2
-date: 2018-03-31
-img: accounting.png
-thumbnail: accounting-thumbnail.png
-alt: image-alt
-projectDate: "2018"
-client: none
 category: info
+order: 2
 ---
 
 OpenStreetMap Foundation Japanの会計報告は以下のとおりです。

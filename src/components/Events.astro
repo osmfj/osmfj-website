@@ -1,0 +1,35 @@
+---
+import { getCollection } from 'astro:content';
+
+const allEvents = await getCollection('events');
+const events = allEvents.sort((a, b) => a.data.order - b.data.order);
+
+const renderedEvents = await Promise.all(
+  events.map(async (entry) => {
+    const { Content } = await entry.render();
+    return { entry, Content };
+  })
+);
+---
+<section class="page-section" id="sotm">
+  <div class="container">
+    <div class="text-center">
+      <h2 class="section-heading">State of the Map</h2>
+      <h3 class="section-subheading text-muted">OpenStreetMapカンファレンス</h3>
+    </div>
+    <div class="row">
+      {renderedEvents.map(({ entry, Content }) => (
+        <div class="col-lg-6">
+          <h4>{entry.data.title}</h4>
+          {entry.data.subtitle && (
+            <p class="text-muted">{entry.data.subtitle}</p>
+          )}
+          {entry.data.description && (
+            <p set:html={entry.data.description} />
+          )}
+          <Content />
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

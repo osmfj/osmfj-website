@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000" height="240" viewBox="0 0 1000 240" xmlns="http://www.w3.org/2000/svg">
+    <!-- 
+        ILOHA OpenLab Horizontal Logo Variant
+        - Logo: Hexagonal structure with open paths.
+        - Text: ILOHA OpenLab LLC in Slate Blue (#0f172a).
+    -->
+    <g transform="translate(10, 0)">
+        <path d="M 190 80 V 160 L 120 200 L 50 160 V 80" fill="none" stroke="#0f172a" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M 160 100 L 120 75 L 80 100 V 140 L 120 165" fill="none" stroke="#10b981" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="120" cy="120" r="12" fill="#10b981"/>
+    </g>
+    <text x="230" y="146" font-family="sans-serif" font-weight="800" font-size="64" fill="#0f172a">ILOHA <tspan font-weight="400">OpenLab LLC</tspan></text>
+</svg>

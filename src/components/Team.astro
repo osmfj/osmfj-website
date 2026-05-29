@@ -1,5 +1,5 @@
 ---
-import { people } from '../data/site';
+import { members } from '../data/team';
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 ---
 <!-- Team -->
@@ -10,7 +10,7 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
       <h3 class="section-subheading text-muted">2023年度より以下の役員体制で運営を行っています</h3>
     </div>
     <div class="row">
-      {people.map((member) => (
+      {members.map((member) => (
         <div class="col-lg-6">
           <div class="team-member">
             <img class="mx-auto rounded-circle" src={`${base}img/team/${member.pic}.jpg`} alt={member.name} />
