@@ -16,8 +16,8 @@ export const members: Member[] = [
     pic: 1,
     position: '代表理事',
     social: [
-      { title: 'twitter', url: 'https://twitter.com/miurahr' },
-      { title: 'facebook', url: 'https://www.facebook.com/miurahr' },
+      { title: 'bluesky', url: 'https://bsky.app/profile/miurahr.bsky.social' },
+      { title: 'linkedin', url: 'https://linkedin.com/in/miurahr' },
     ],
   },
   {

@@ -10,7 +10,7 @@ const year = new Date().getFullYear();
       <div class="col-lg-4 text-lg-left">Copyright &copy; {site.title} {year}</div>
       <div class="col-lg-4 my-3 my-lg-0">
         {social.map((network) => (
-          <a class="btn btn-dark btn-social mx-2" href={network.url}>
+          <a class="btn btn-dark btn-social mx-2" href={network.url} target="_blank" rel="noopener noreferrer">
             <i class={`fab fa-${network.title}`}></i>
           </a>
         ))}
