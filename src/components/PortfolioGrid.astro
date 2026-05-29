@@ -6,6 +6,7 @@ interface Props {
 }
 
 const { posts } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 ---
 <!-- Portfolio Grid -->
 <section class="page-section bg-light" id="portfolio">
@@ -21,7 +22,7 @@ const { posts } = Astro.props;
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
               </div>
-              <img class="img-fluid" src={`/img/portfolio/${post.data.thumbnail}`} alt={post.data.alt} />
+              <img class="img-fluid" src={`${base}img/portfolio/${post.data.thumbnail}`} alt={post.data.alt} />
             </a>
             <div class="portfolio-caption">
               <div class="portfolio-caption-heading">{post.data.title}</div>

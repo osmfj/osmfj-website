@@ -8,6 +8,7 @@ interface Props {
 
 const { posts } = Astro.props;
 
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const renderedPosts = await Promise.all(
   posts.map(async (post) => {
     const { Content } = await post.render();
@@ -21,14 +22,14 @@ const renderedPosts = await Promise.all(
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
-          <img src="/img/close-icon.svg" alt="Close modal" />
+          <img src={`${base}img/close-icon.svg`} alt="Close modal" />
         </div>
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-lg-8">
               <div class="modal-body">
                 <h2>{post.data.title}</h2>
-                <img class="img-fluid d-block mx-auto" src={`/img/portfolio/${post.data.img}`} alt={post.data.alt} />
+                <img class="img-fluid d-block mx-auto" src={`${base}img/portfolio/${post.data.img}`} alt={post.data.alt} />
                 <Content />
                 {post.data.category === 'kaihi' && <Fee />}
                 <button class="btn btn-primary" data-dismiss="modal" type="button">

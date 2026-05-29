@@ -13,7 +13,7 @@ category: kaihi
 
 「一般社団法人オープンストリートマップ・ファウンデーション・ジャパン(略称:OSMFJ)」は、個人として参加できる会員種別として<strong>「正会員」</strong>と<strong>「賛助会員（個人）」</strong>、企業として参加できる会員種別として<strong>「賛助会員（法人）」</strong>を設定しています。<br>
 OSMFJの理念に賛同し、活動への参加や援助を実施くださる方を募集しています。<br>
-それぞれの会員種別の有する権利については「<a href="/img/pdf/join-osmfj.pdf" target="_blank">OSMFJ会員の権利</a>」を参照ください。<br>
+それぞれの会員種別の有する権利については「<a href="img/pdf/join-osmfj.pdf" target="_blank">OSMFJ会員の権利</a>」を参照ください。<br>
 
 <h4>会員種別の概要</h4>
 

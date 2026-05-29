@@ -23,12 +23,12 @@ OpenStreetMap Foundation Japanの会計報告は以下のとおりです。<br>
 2018年10月期からFree会計に移行し、会計報告のフォーマットが変更になります。<br>
 
 <ul>
-  <li><a href="/img/pdf/kessan2017.pdf">OSMFJ第2018年10月期決算報告</a></li>
-  <li><a href="/img/pdf/kessan2018.pdf">OSMFJ第2019年10月期決算報告</a></li>
-  <li><a href="/img/pdf/kessan2019.pdf">OSMFJ第2020年10月期決算報告</a></li>
-  <li><a href="/img/pdf/kessan2020.pdf">OSMFJ第2021年10月期決算報告</a></li>
-  <li><a href="/img/pdf/kessan2021.pdf">OSMFJ第2022年10月期決算報告</a></li>
-  <li><a href="/img/pdf/kessan2022.pdf">OSMFJ第2023年10月期決算報告</a></li>
-  <li><a href="/img/pdf/kessan2023.pdf">OSMFJ第2024年10月期決算報告</a></li>
-  <li><a href="/img/pdf/kessan2024.pdf">OSMFJ第2025年10月期決算報告</a></li>
+  <li><a href="img/pdf/kessan2017.pdf">OSMFJ第2018年10月期決算報告</a></li>
+  <li><a href="img/pdf/kessan2018.pdf">OSMFJ第2019年10月期決算報告</a></li>
+  <li><a href="img/pdf/kessan2019.pdf">OSMFJ第2020年10月期決算報告</a></li>
+  <li><a href="img/pdf/kessan2020.pdf">OSMFJ第2021年10月期決算報告</a></li>
+  <li><a href="img/pdf/kessan2021.pdf">OSMFJ第2022年10月期決算報告</a></li>
+  <li><a href="img/pdf/kessan2022.pdf">OSMFJ第2023年10月期決算報告</a></li>
+  <li><a href="img/pdf/kessan2023.pdf">OSMFJ第2024年10月期決算報告</a></li>
+  <li><a href="img/pdf/kessan2024.pdf">OSMFJ第2025年10月期決算報告</a></li>
 </ul>
