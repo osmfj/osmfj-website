@@ -14,10 +14,10 @@ category: info
 OpenStreetMap Foundation Japanの会計報告は以下のとおりです。<br>
 
 <ul>
-  <li><a href="https://docs.google.com/viewer?a=v&pid=sites&srcid=b3NtZi5qcHx3d3d8Z3g6NGUzMzAwNjdmZGU1MGM2">OSMFJ第1期報告・第2期計画</a></li>
-  <li><a href="https://docs.google.com/viewer?a=v&pid=sites&srcid=b3NtZi5qcHx3d3d8Z3g6MTJmMDNhMzUxZWRjNTZhMg">OSMFJ第2期報告・第3期計画</a></li>
-  <li><a href="https://docs.google.com/viewer?a=v&pid=sites&srcid=b3NtZi5qcHx3d3d8Z3g6NjQ5ZDU1OGM5MmY5ZTU5YQ">OSMFJ第3期報告・第4期計画</a></li>
-  <li><a href="https://docs.google.com/viewer?a=v&pid=sites&srcid=b3NtZi5qcHx3d3d8Z3g6OWZhYzU5NjAwNjRjNWU0">OSMFJ第6期報告・第7期計画</a></li>
+  <li><a href="img/pdf/OSMFJ第1期報告・第2期計画.pdf">OSMFJ第1期報告・第2期計画</a></li>
+  <li><a href="img/pdf/OSMFJ第2期報告・第3期計画.pdf">OSMFJ第2期報告・第3期計画</a></li>
+  <li><a href="img/pdf/OSMFJ第3期報告・第4期計画.pdf">OSMFJ第3期報告・第4期計画</a></li>
+  <li><a href="img/pdf/OSMFJ第6期報告・第7期計画.pdf">OSMFJ第6期報告・第7期計画</a></li>
 </ul>
 
 2018年10月期からFree会計に移行し、会計報告のフォーマットが変更になります。<br>
