@@ -12,7 +12,7 @@ export const corporateMembers: Sponsor[] = [
   { name: 'iC',                url: 'https://www.ic-inc.world/home',     logo: 'iC_logo.jpg' },
   { name: 'NTT Data',          url: 'https://www.nttdata.com/jp/ja/',    logo: 'nttdata.png' },
   { name: 'TomTom',            url: 'https://www.tomtom.com/',           logo: 'TomTom-logo-RGB_lockup.png' },
-  { name: 'ILOHA OpenLab LLC', url: 'https://iloha-openlab.com/',        logo: 'iloha-openlab.svg' },
+  { name: 'ILOHA OpenLab LLC', url: 'https://iloha-openlab.com/ja/',        logo: 'iloha-openlab.svg' },
 ];
 
 export const infrastructureSponsors: Sponsor[] = [
